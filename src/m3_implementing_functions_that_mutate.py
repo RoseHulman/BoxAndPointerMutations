@@ -134,7 +134,7 @@ def swap_colors(circle, rectangle):
       :type rectangle: rg.Rectangle
     """
     # ------------------------------------------------------------------
-    # TODO: 2. Implement and test this function.
+    # Done: 2. Implement and test this function.
     #          Tests have been written for you (above).
     #
     ####################################################################
@@ -145,6 +145,11 @@ def swap_colors(circle, rectangle):
     #      B = temp
     ####################################################################
     # ------------------------------------------------------------------
+
+    a = circle.fill_color
+    b = rectangle.fill_color
+    circle.fill_color = b
+    rectangle.fill_color = a
 
 
 # ----------------------------------------------------------------------

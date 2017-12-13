@@ -18,7 +18,7 @@ import rosegraphics as rg
 ########################################################################
 
 # ----------------------------------------------------------------------
-# TODO: 2.
+# Done: 2.
 #  Step a:  READ the   mutate_point   function below.
 #
 #  Step b:  Note that the code in main has 5 parts numbered 1, 2, ... 5.
@@ -103,7 +103,7 @@ def main():
     print(point, point2)  # Prints the two DIFFERENT rg.Points
 
     # ------------------------------------------------------------------
-    # 5. Shows the difference betwee the   is   operator
+    # 5. Shows the difference between the   is   operator
     #      (two things refer to the same place in memory)
     #    and the   ==   operator (two things contain the same data).
     # ------------------------------------------------------------------

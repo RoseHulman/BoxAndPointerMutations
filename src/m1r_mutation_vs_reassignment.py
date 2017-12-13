@@ -17,12 +17,12 @@ import rosegraphics as rg
 
 def main():
     """ Runs several examples. """
-#     example1()
-#     example2()
+    example1()
+    example2()
 
 
 # ----------------------------------------------------------------------
-# TODO: 2.
+# Done: 2.
 #  Step a:  READ the code in  example1.
 #
 #  Step b:  PREDICT what  example1  will print when it runs.
@@ -61,7 +61,7 @@ def example1():
 
 
 # ----------------------------------------------------------------------
-# TODO: 3.
+# Done: 3.
 #  Step a:  READ the code in  example2.
 #           Pay close attention to the difference between the functions:
 #              mutate_point
